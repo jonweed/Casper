@@ -5,6 +5,9 @@
 }
 
 @media (min-width: 795px) {
+  .post-card {
+    box-shadow: none;
+  }
   .post-card, .home-template .post-feed .post-card:nth-child(6n+1):not(.no-image) .post-card-image-link {
     border-radius: 0;
   }
