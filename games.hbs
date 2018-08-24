@@ -8,7 +8,7 @@ into the {body} of the default.hbs template --}}
 
         <div class="post-feed">
             {{#if header}}
-                <script>{{header}}</script>
+                <div>{{@header.content}}</div>
             {{/if}}
             {{#foreach posts}}
 
