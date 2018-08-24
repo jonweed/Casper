@@ -1,5 +1,10 @@
 @import "screen-casper.css";
 
+.site-header {
+  color: inherit;
+  background: inherit;
+}
+
 .post-card, .post-card-image-link {
   border-radius: 0;
 }
