@@ -28,17 +28,16 @@ body:not(.home-template) .site-header {
   color: #fff;
 }
 
+.post-full-content {
+  border-radius: var(--global-border-radius) var(--global-border-radius) 0 0;
+}
 
 .nav li a {
   color: inherit;
   font-family:Dosis;
 }
 
-.subscribe-form {
-  border-radius: var(--global-border-radius);
-}
-
-.post-card, .read-next-card, .post-card-image-link {
+.post-card, .read-next-card, .post-card-image-link, .subscribe-form {
   border-radius: var(--global-border-radius);
 }
 
