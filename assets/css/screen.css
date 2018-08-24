@@ -26,7 +26,7 @@ body:not(.home-template) .site-header {
   font-family:Dosis;
 }
 
-.post-card, .post-card-image-link {
+.post-card, .read-next-card, .post-card-image-link {
   border-radius: 0;
 }
 
