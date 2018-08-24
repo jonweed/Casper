@@ -15,15 +15,19 @@ body {
   background: inherit;
 }
 
+.nav li a {
+  color: inherit;
+}
+
 .post-card, .post-card-image-link {
   border-radius: 0;
 }
 
-.post-card:hover {
-  box-shadow:initial;
-  transition:initial;
-  transform:initial;
-}
+/* .post-card:hover {
+  box-shadow:none;
+  transition:none;
+  transform:none;
+} */
 
 @media (min-width: 795px) {
   .post-card {
@@ -33,7 +37,8 @@ body {
     border-radius: 0;
   }
 }
-header > .inner, #site-main > .inner {
+
+/* header > .inner, #site-main > .inner {
   background: white;
 }
 
@@ -44,4 +49,4 @@ header > .inner, #site-main > .inner {
 
 .site-footer {
   margin-top: 12px;
-}
+} */
