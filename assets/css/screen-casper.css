@@ -74,8 +74,7 @@ body {
 /* Centered content container blocks */
 .inner {
     margin: 0 auto;
-    max-width: 1200px;
-    /* max-width: 1040px; */
+    max-width: 1040px;
     width: 100%;
 }
 
