@@ -15,10 +15,11 @@ body {
   background: inherit;
 }
 
-.site-header.no-cover {
+body:not(.home-template) .site-header {
   background: #08c;
   color: #fff;
 }
+
 
 .nav li a {
   color: inherit;
