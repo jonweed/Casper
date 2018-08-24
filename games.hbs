@@ -8,7 +8,7 @@ into the {body} of the default.hbs template --}}
 
         <div class="post-feed">
             {{#if curator}}
-              <h1>{{curator.firstName}} {{curator.lastName}}</h1>
+              <h1>{{@curator.firstName}} {{@curator.lastName}}</h1>
             {{/if}}
 
             {{#foreach posts}}
