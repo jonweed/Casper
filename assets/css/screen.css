@@ -11,10 +11,10 @@ body {
   /* font-family: Rubik,'-apple-system',BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,Ubuntu,Cantarell,'Open Sans','Helvetica Neue','sans-serif'; */
 }
 
-body:not(.home-template) .site-header {
+/* body:not(.home-template) .site-header {
   background: var(--color-primary);
   color: #fff;
-}
+} */
 
 
 .inner {
@@ -26,8 +26,8 @@ body:not(.home-template) .site-header {
 }
 
 .site-header {
-  color: inherit;
-  background: inherit;
+  /* color: inherit; */
+  background: var(--color-primary);
 }
 
 .site-footer {
