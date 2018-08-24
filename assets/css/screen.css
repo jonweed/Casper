@@ -6,7 +6,13 @@
 }
 
 .post-card, .post-card-image-link {
+  overflow:hidden;
   border-radius: 0;
+}
+
+.post-card-image-link:hover {
+  transition: all 0.4s ease;
+  transform: translate3D(0,-1px,0) scale(1.02);
 }
 
 @media (min-width: 795px) {
