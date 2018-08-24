@@ -1,5 +1,5 @@
 @import "screen-casper.css";
 
-.post-card-image-link {
+.post-card, .post-card-image-link {
   border-radius: 0;
 }
