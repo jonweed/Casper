@@ -15,6 +15,11 @@ body {
   background: inherit;
 }
 
+.site-header.no-cover {
+  background: #08c;
+  color: #fff;
+}
+
 .nav li a {
   color: inherit;
 }
