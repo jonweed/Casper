@@ -1,6 +1,10 @@
 @import "screen-casper.css";
 @import "fonts.css";
 
+body {
+  font-family: 'Rubik';
+
+}
 .site-header {
   color: inherit;
   background: inherit;
