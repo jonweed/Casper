@@ -17,6 +17,6 @@
     border-radius: 0;
   }
 }
-header > .inner {
+header > .inner, #site-main > .inner {
   background: white;
 }
