@@ -9,6 +9,12 @@
   border-radius: 0;
 }
 
+.post-card:hover {
+  box-shadow:initial;
+  transition:initial;
+  transform:initial;
+}
+
 @media (min-width: 795px) {
   .post-card {
     box-shadow: none;
