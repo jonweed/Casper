@@ -23,6 +23,7 @@ body:not(.home-template) .site-header {
 
 .nav li a {
   color: inherit;
+  font-family:Dosis;
 }
 
 .post-card, .post-card-image-link {
