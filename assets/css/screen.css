@@ -34,6 +34,10 @@ body:not(.home-template) .site-header {
   font-family:Dosis;
 }
 
+.subscribe-form {
+  border-radius: var(--global-border-radius);
+}
+
 .post-card, .read-next-card, .post-card-image-link {
   border-radius: var(--global-border-radius);
 }
@@ -49,7 +53,7 @@ body:not(.home-template) .site-header {
     box-shadow: none;
   }
   .post-card, .home-template .post-feed .post-card:nth-child(6n+1):not(.no-image) .post-card-image-link {
-    border-radius: var(--global-border-radius);    
+    border-radius: var(--global-border-radius);
   }
 }
 
