@@ -24,3 +24,8 @@ header > .inner, #site-main > .inner {
 #site-main > .inner {
   padding: 0 20px;
 }
+
+
+.site-footer {
+  padding-top: 12px;
+}
