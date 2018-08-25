@@ -36,12 +36,10 @@ body {
 }
 
 .post-full-primary-tag {
-  position: relative;
-  top: 5vw;
   border-left: 2px solid var(--color-primary);
   padding-left: 4px;
   display: inline-block;
-  color: slategray;
+  color: var(--color-gray);
   line-height: 1.3rem;
   font-size: 1.3rem;
   font-weight: 400;
