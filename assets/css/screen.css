@@ -58,7 +58,11 @@ body {
 }
 
 .post-full-excerpt {
-  margin-top: 1rem;
+  margin: 1rem 0;
+}
+
+.post-full-excerpt p {
+  margin:inherit;
 }
 
 .post-full-meta-date {
