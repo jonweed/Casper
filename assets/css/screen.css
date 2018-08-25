@@ -39,7 +39,7 @@ body {
   border-left: 2px solid var(--color-primary);
   padding-left: 4px;
   display: inline-block;
-  color: var(--color-gray);
+  color: var(--midgrey);
   line-height: 1.3rem;
   font-size: 1.3rem;
   font-weight: 400;
