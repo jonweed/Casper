@@ -31,8 +31,10 @@ body {
 }
 
 .post-full-meta {
+  display:flex;
   align-items:center;
   justify-content: flex-start;
+  margin: 1rem 0 0 0;
 }
 
 .post-full-primary-tag {
@@ -56,7 +58,7 @@ body {
 }
 
 .post-full-excerpt {
-  margin: 1rem 0;
+  margin: 1rem 0 0 0;
 }
 
 .post-full-excerpt p {
