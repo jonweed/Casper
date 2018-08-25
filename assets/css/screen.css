@@ -113,3 +113,31 @@ body {
     border-radius: var(--global-border-radius);
   }
 }
+
+
+
+
+.site-footer:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    display: block;
+    background: rgba(0,0,0,0.18);
+}
+
+.site-footer:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: auto;
+    left: 0;
+    z-index: 10;
+    display: block;
+    height: 80px;
+    background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0));
+}
