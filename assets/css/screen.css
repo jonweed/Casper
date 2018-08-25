@@ -39,6 +39,7 @@ body {
   position: relative;
   top: 5vw;
   margin-left: auto;
+  margin-bottom: 1rem;
   border-left: 2px solid var(--color-primary);
   padding-left: 4px;
   display: inline-block;
@@ -52,6 +53,10 @@ body {
 
 .post-full-meta .author-profile-name a {
   color: inherit;
+}
+
+.post-full-excerpt {
+  margin-top: 1rem;
 }
 
 .post-full-meta-date {
