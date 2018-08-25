@@ -20,7 +20,7 @@ into the {body} of the default.hbs template --}}
             {{#primary_tag}}
                 <a class="post-full-primary-tag" href="{{url}}">{{name}}</a>
             {{/primary_tag}}
-          
+
             <header class="post-full-header">
                 <h1 class="post-full-title">{{title}}</h1>
 
@@ -35,7 +35,7 @@ into the {body} of the default.hbs template --}}
                       {{else}}
                       <span class="avatar-wrapper">{{> "icons/avatar"}}</span>
                       {{/if}}
-                      <h4>By <a href="{{url}}">{{name}}</a></h4>
+                      <h4 class="author-profile-name">By <a href="{{url}}">{{name}}</a></h4>
                   {{/primary_author}}
 
                   <time class="post-full-meta-date" datetime="{{date format="YYYY-MM-DD"}}">{{date format="D MMMM YYYY"}}</time>

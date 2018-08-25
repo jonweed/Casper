@@ -45,6 +45,11 @@ body {
   color: slategray;
 }
 
+.post-full-meta .author-profile-name {
+  margin: 0 8px 0 0;
+  font-size: 1.4rem;
+}
+
 .post-full-meta .author-profile-image,
 .post-full-meta .avatar-wrapper {
     margin-right: 15px;
