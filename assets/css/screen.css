@@ -50,6 +50,15 @@ body {
   font-size: 1.4rem;
 }
 
+.post-full-meta .author-profile-name a {
+  color: inherit;
+}
+
+.post-full-meta-date {
+  font-weight: normal;
+  color: inherit;
+}
+
 .post-full-meta .author-profile-image,
 .post-full-meta .avatar-wrapper {
     margin-right: 15px;
