@@ -20,6 +20,10 @@ into the {body} of the default.hbs template --}}
             <header class="post-full-header">
                 <h1 class="post-full-title">{{title}}</h1>
 
+                <section class="post-card-excerpt">
+                    <p>{{excerpt words="33"}}</p>
+                </section>
+
                 <section class="post-full-meta">
                   {{#primary_author}}
                       {{#if profile_image}}
