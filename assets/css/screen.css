@@ -94,7 +94,8 @@ body {
   font-family:Dosis;
 }
 
-.post-card, .read-next-card, .post-card-image-link, .subscribe-form {
+
+.post-card, .read-next-card, .post-card-image-link, .subscribe-form, .post-full-image {
   border-radius: var(--global-border-radius);
 }
 
