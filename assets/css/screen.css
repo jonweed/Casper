@@ -30,6 +30,16 @@ body {
   background: var(--color-primary);
 }
 
+
+.post-full-meta .author-profile-image,
+.post-full-meta .avatar-wrapper {
+    margin-right: 15px;
+    width: 32px;
+    height: 32px;
+}
+
+
+
 .site-footer {
   background: var(--color-primary);
 }
