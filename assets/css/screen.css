@@ -38,12 +38,14 @@ body {
 .post-full-primary-tag {
   position: relative;
   top: 5vw;
-  margin-left: auto;
-  margin-bottom: 1rem;
   border-left: 2px solid var(--color-primary);
   padding-left: 4px;
   display: inline-block;
   color: slategray;
+  line-height: 1.3rem;
+  font-size: 1.3rem;
+  font-weight: 400;
+  height: 1.3rem;
 }
 
 .post-full-meta .author-profile-name {
