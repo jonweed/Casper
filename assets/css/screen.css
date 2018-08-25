@@ -44,6 +44,8 @@ body {
   font-size: 1.3rem;
   font-weight: 400;
   height: 1.3rem;
+  text-transform:uppercase;
+  margin-left:-3vw;
 }
 
 .post-full-meta .author-profile-name {
