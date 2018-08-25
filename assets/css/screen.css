@@ -35,6 +35,16 @@ body {
   justify-content: flex-start;
 }
 
+.post-full-primary-tag {
+  position: relative;
+  top: 5vw;
+  margin-left: auto;
+  border-left: 2px solid var(--color-primary);
+  padding-left: 4px;
+  display: inline-block;
+  color: slategray;
+}
+
 .post-full-meta .author-profile-image,
 .post-full-meta .avatar-wrapper {
     margin-right: 15px;
