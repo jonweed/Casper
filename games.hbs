@@ -22,7 +22,9 @@ into the {body} of the default.hbs template --}}
 {{!-- The main content area --}}
 <main id="site-main" class="site-main outer">
     <div class="inner">
-abcd
+        {{#if testing}}
+          <h1>{{testing}}</h1>
+        {{/if}}
         <div class="post-feed">
             {{#foreach posts}}
 
