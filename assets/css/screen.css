@@ -30,6 +30,10 @@ body {
   background: var(--color-primary);
 }
 
+.post-full-meta {
+  align-items:center;
+  justify-content: flex-start;
+}
 
 .post-full-meta .author-profile-image,
 .post-full-meta .avatar-wrapper {
@@ -38,7 +42,9 @@ body {
     height: 32px;
 }
 
-
+.post-full-header {
+  text-align:left;
+}
 
 .site-footer {
   background: var(--color-primary);
