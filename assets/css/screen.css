@@ -104,8 +104,8 @@ body {
 
 .post-full-primary-tag {
     display: block;
-    margin-bottom: 4px;
-    color: #738a94;
+    margin-top: -1.15em;
+    color: var(--lightgrey);
     font-size: 1.2rem;
     line-height: 1.15em;
     font-weight: 500;
