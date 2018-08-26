@@ -82,6 +82,7 @@ body {
     align-items: center;
     justify-content: flex-start;
     margin-top: 1rem;
+    flex-flow: wrap-reverse;
 }
 
 .post-full-header-date {
