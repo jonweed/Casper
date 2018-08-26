@@ -85,7 +85,7 @@ body {
 }
 
 .post-full-meta-date {
-    font-weight: normal;
+    font-weight: 300;
     color: inherit;
 }
 
@@ -106,7 +106,7 @@ body {
 .post-full-primary-tag {
     display: block;
     margin-top: -1.15em;
-    color: var(--color-primary-c1);
+    /* color: var(--color-primary); */
     font-size: 1.2rem;
     line-height: 1.15em;
     font-weight: 300;
