@@ -11,7 +11,7 @@
 :root {
     --color-text: #2a2a2a;
     --global-border-radius: 2px;
-    --blue: #26a8ed;
+    --blue-2: #26a8ed;
 }
 
 /* 1.2. Body
@@ -28,7 +28,7 @@ body {
 
 .site-header {
     /* color: inherit; */
-    background: var(--blue);
+    background: var(--blue-2);
 }
 
 .site-header:before, .site-header:after {
@@ -115,7 +115,7 @@ body {
 
 .post-full-header-tag {
     display: inline-block;
-    color: var(--blue);
+    color: var(--blue-2);
     font-size: 1.3rem;
     line-height: 1.15em;
     letter-spacing: .5px;
@@ -146,6 +146,6 @@ body {
 /* ---------------------------------------------------------- */
 
 .site-footer {
-    background: var(--blue);
+    background: var(--blue-2);
     /* background: #006CA1; */
 }
