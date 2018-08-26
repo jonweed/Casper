@@ -84,7 +84,7 @@ body {
     margin-top: 1rem;
 }
 
-.post-full-header-date {
+.post-full-meta-date {
     font-weight: 300;
     color: inherit;
     font-size:1.4rem;
@@ -104,9 +104,9 @@ body {
     height: 30px;
 }
 
-.post-full-header-tag {
+.post-full-primary-tag {
     display: block;
-    /* color: var(--midgrey); */
+    color: var(--midgrey);
     font-size: 1.3rem;
     line-height: 1.15em;
     letter-spacing: .5px;
