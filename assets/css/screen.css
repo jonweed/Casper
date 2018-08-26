@@ -9,8 +9,6 @@
 /* ---------------------------------------------------------- */
 
 :root {
-    --color-primary: #0086c9;
-    --color-primary-c1: #004e75;
     --color-text: #2a2a2a;
     --global-border-radius: 2px;
 }
@@ -29,7 +27,7 @@ body {
 
 .site-header {
     /* color: inherit; */
-    background: var(--color-primary);
+    background: var(--blue);
 }
 
 .site-header:before, .site-header:after {
@@ -82,6 +80,7 @@ body {
     align-items: center;
     justify-content: flex-start;
     margin-top: 2rem;
+    margin-bottom:0;
     flex-wrap: wrap-reverse;
 }
 
@@ -115,7 +114,7 @@ body {
 
 .post-full-header-tag {
     display: inline-block;
-    color: var(--color-primary);
+    color: var(--blue);
     font-size: 1.3rem;
     line-height: 1.15em;
     letter-spacing: .5px;
@@ -146,6 +145,6 @@ body {
 /* ---------------------------------------------------------- */
 
 .site-footer {
-    background: var(--color-primary);
+    background: var(--blue);
     /* background: #006CA1; */
 }
