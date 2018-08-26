@@ -101,7 +101,7 @@ body {
     color: inherit;
 }
 .post-full-meta .author-profile-image, .post-full-meta .avatar-wrapper {
-    margin-right: 12px;
+    margin-right: 14px;
     width: 30px;
     height: 30px;
 }
@@ -116,6 +116,10 @@ body {
     margin-bottom:1rem;
     font-weight:500;
 
+}
+
+.post-full-meta > * {
+    margin-bottom:1rem;    
 }
 
 .post-full-image {
