@@ -87,11 +87,12 @@ body {
 .post-full-meta-date {
     font-weight: 300;
     color: inherit;
+    font-size:1.3rem;
 }
 
 .post-full-meta .author-profile-name {
     margin: 0 20px 0 0;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
 }
 
 .post-full-meta .author-profile-name a {
@@ -106,10 +107,11 @@ body {
 .post-full-primary-tag {
     display: block;
     color: var(--midgrey);
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     line-height: 1.15em;
     letter-spacing: .5px;
     text-transform: uppercase;
+    margin-bottom:1rem;
 }
 
 .post-full-image {
