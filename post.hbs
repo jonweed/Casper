@@ -18,7 +18,7 @@ into the {body} of the default.hbs template --}}
         <article class="post-full {{post_class}} {{#unless feature_image}}no-image{{/unless}}">
 
             <header class="post-full-header">
-                <time class="post-full-date" datetime="{{date format="YYYY-MM-DD"}}">{{date format="MMMM D, YYYY"}}</time>
+                <time class="post-full-header-date" datetime="{{date format="YYYY-MM-DD"}}">{{date format="MMMM D, YYYY"}}</time>
                 {{#primary_tag}}
                     <span class="date-divider">/</span> <a class="post-full-header-tag" href="{{url}}">{{name}}</a>
                 {{/primary_tag}}
