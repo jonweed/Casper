@@ -9,9 +9,10 @@
 /* ---------------------------------------------------------- */
 
 :root {
-    --global-border-radius: 2px;
     --color-primary: #08c;
+    --color-primary-c1: #004e75;
     --color-text: #2a2a2a;
+    --global-border-radius: 2px;
 }
 
 /* 1.2. Body
@@ -105,7 +106,7 @@ body {
 .post-full-primary-tag {
     display: block;
     margin-top: -1.15em;
-    color: var(--midgrey);
+    color: var(--color-primary-c1);
     font-size: 1.2rem;
     line-height: 1.15em;
     font-weight: 500;
