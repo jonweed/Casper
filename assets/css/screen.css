@@ -93,7 +93,7 @@ body {
 }
 
 .post-full-meta .author-profile-name {
-    margin: 0 20px 0 0;
+    margin-right: auto;
     font-size: 1.4rem;
 }
 
