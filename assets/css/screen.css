@@ -106,7 +106,7 @@ body {
 
 .post-full-header-tag {
     display: block;
-    color: var(--midgrey);
+    /* color: var(--midgrey); */
     font-size: 1.3rem;
     line-height: 1.15em;
     letter-spacing: .5px;
