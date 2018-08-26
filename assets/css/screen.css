@@ -93,7 +93,7 @@ body {
 }
 
 .post-full-meta .author-profile-name {
-    margin-right: auto;
+    margin: 0 auto 1rem 0;
     font-size: 1.4rem;
 }
 
@@ -119,7 +119,7 @@ body {
 }
 
 .post-full-meta > * {
-    margin-bottom:1rem;    
+    margin-bottom:1rem;
 }
 
 .post-full-image {
