@@ -1,125 +1,139 @@
+/* 1. Global - Set up the things
+/* ---------------------------------------------------------- */
+
+/* @import "global.css"; */
 @import "screen-casper.css";
 @import "fonts.css";
 
+/* 1.1. Variables
+/* ---------------------------------------------------------- */
+
 :root {
-  --global-border-radius: 2px;
-  --color-primary: #08c;
+    --global-border-radius: 2px;
+    --color-primary: #08c;
+    --color-text: #2a2a2a;
 }
+
+/* 1.2. Body
+/* ---------------------------------------------------------- */
 
 body {
-  color:#2a2a2a;
-  /* font-family: Rubik,'-apple-system',BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,Ubuntu,Cantarell,'Open Sans','Helvetica Neue','sans-serif'; */
+    color: var(--color-text);
+    /* font-family: Rubik,'-apple-system',BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,Ubuntu,Cantarell,'Open Sans','Helvetica Neue','sans-serif'; */
 }
 
-/* body:not(.home-template) .site-header {
-  background: var(--color-primary);
-  color: #fff;
-} */
 
-
-/* .inner {
-    max-width: 1200px;
-} */
-
-.post-card-excerpt {
-  /* font-family: inherit; */
-}
+/* 4. Site Header
+/* ---------------------------------------------------------- */
 
 .site-header {
-  /* color: inherit; */
-  background: var(--color-primary);
+    /* color: inherit; */
+    background: var(--color-primary);
+}
+
+.site-header:before, .site-header:after {
+    display: none;
+}
+
+
+/* 5. Site Navigation
+/* ---------------------------------------------------------- */
+
+.nav li a {
+    color: inherit;
+    font-family: Dosis;
+}
+
+
+/* 6. Post Feed
+/* ---------------------------------------------------------- */
+
+.post-card,
+.post-card-image-link,
+.read-next-card {
+    border-radius: var(--global-border-radius);
+}
+
+.post-card:hover {
+    box-shadow: none;
+    transition: none;
+    transform: none;
+}
+
+@media (min-width: 795px) {
+    .post-card {
+        box-shadow: none;
+    }
+    .home-template .post-feed .post-card:nth-child(6n+1):not(.no-image) .post-card-image-link {
+        border-radius: var(--global-border-radius);
+    }
+}
+
+
+/* 7. Single Post
+/* ---------------------------------------------------------- */
+
+.post-full-header {
+    text-align: left;
 }
 
 .post-full-meta {
-  display:flex;
-  align-items:center;
-  justify-content: flex-start;
-  margin: 1rem 0 0 0;
-}
-
-.post-full-primary-tag {
-  display: block;
-  margin-bottom: 4px;
-  color: #738a94;
-  font-size: 1.2rem;
-  line-height: 1.15em;
-  font-weight: 500;
-  letter-spacing: .5px;
-  text-transform: uppercase;
-}
-
-.post-full-meta .author-profile-name {
-  margin: 0 8px 0 0;
-  font-size: 1.4rem;
-}
-
-.post-full-meta .author-profile-name a {
-  color: inherit;
-}
-
-.post-full-excerpt {
-  margin: 1rem 0 0 0;
-}
-
-.post-full-excerpt p {
-  margin:inherit;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 1rem;
 }
 
 .post-full-meta-date {
-  font-weight: normal;
-  color: inherit;
+    font-weight: normal;
+    color: inherit;
 }
 
-.post-full-meta .author-profile-image,
-.post-full-meta .avatar-wrapper {
+.post-full-meta .author-profile-name {
+    margin: 0 8px 0 0;
+    font-size: 1.4rem;
+}
+
+.post-full-meta .author-profile-name a {
+    color: inherit;
+}
+.post-full-meta .author-profile-image, .post-full-meta .avatar-wrapper {
     margin-right: 15px;
     width: 32px;
     height: 32px;
 }
 
-.post-full-header {
-  text-align:left;
+.post-full-primary-tag {
+    display: block;
+    margin-bottom: 4px;
+    color: #738a94;
+    font-size: 1.2rem;
+    line-height: 1.15em;
+    font-weight: 500;
+    letter-spacing: .5px;
+    text-transform: uppercase;
 }
 
-.site-footer {
-  background: var(--color-primary);
+.post-full-image {
+    border-radius: var(--global-border-radius);
 }
 
 .post-full-content {
-  border-radius: var(--global-border-radius) var(--global-border-radius) 0 0;
-}
-
-.nav li a {
-  color: inherit;
-  font-family:Dosis;
+    border-radius: var(--global-border-radius) var(--global-border-radius) 0 0;
 }
 
 
-.post-card, .read-next-card, .post-card-image-link, .subscribe-form, .post-full-image {
-  border-radius: var(--global-border-radius);
-}
+/* 7.1. Subscribe Form
+/* ---------------------------------------------------------- */
 
-.post-card:hover {
-  box-shadow:none;
-  transition:none;
-  transform:none;
-}
-
-@media (min-width: 795px) {
-  .post-card {
-    box-shadow: none;
-  }
-  .post-card, .home-template .post-feed .post-card:nth-child(6n+1):not(.no-image) .post-card-image-link {
+.subscribe-form {
     border-radius: var(--global-border-radius);
-  }
 }
 
 
+/* 11. Site Footer
+/* ---------------------------------------------------------- */
 
-.site-header, .site-footer {
-  background: #006CA1;
-}
-
-.site-header:before, .site-header:after {
-  display:none;
+.site-footer {
+    background: var(--color-primary);
+    /* background: #006CA1; */
 }
