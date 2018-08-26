@@ -84,10 +84,11 @@ body {
     margin-top: 1rem;
 }
 
-.post-full-meta-date {
+.post-full-header-date {
     font-weight: 300;
     color: inherit;
     font-size:1.4rem;
+    text-transform: uppercase;
 }
 
 .post-full-meta .author-profile-name {
