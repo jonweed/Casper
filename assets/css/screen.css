@@ -90,7 +90,7 @@ body {
 }
 
 .post-full-meta .author-profile-name {
-    margin: 0 8px 0 0;
+    margin: 0 20px 0 0;
     font-size: 1.4rem;
 }
 
@@ -99,8 +99,8 @@ body {
 }
 .post-full-meta .author-profile-image, .post-full-meta .avatar-wrapper {
     margin-right: 15px;
-    width: 32px;
-    height: 32px;
+    width: 30px;
+    height: 30px;
 }
 
 .post-full-primary-tag {
