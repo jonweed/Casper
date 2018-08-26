@@ -106,7 +106,8 @@ body {
 .post-full-primary-tag {
     display: block;
     /* margin-top: -1.15em; */
-    color: var(--color-primary);
+    /* color: var(--color-primary); */
+    color: var(--midgrey);
     font-size: 1.2rem;
     line-height: 1.15em;
     font-weight: 300;
