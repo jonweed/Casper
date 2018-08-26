@@ -107,7 +107,8 @@ body {
     height: 30px;
 }
 
-.post-full-meta .avatar-wrapper {
+ .post-full-meta .avatar-wrapper,
+ .post-full-meta .date-divider {
     margin-bottom:1rem;
 }
 
