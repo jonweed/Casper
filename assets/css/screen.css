@@ -73,6 +73,14 @@ body {
     color:#343f44;
 }
 
+.site-nav-right .subscribe-button {
+    color:inherit;
+}
+
+.site-nav-right .subscribe-button:hover {
+    color:#343f44;
+}
+
 .gh-navbar-item {
     color: inherit;
 }
