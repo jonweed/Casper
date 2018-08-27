@@ -24,6 +24,21 @@ body {
 }
 
 
+
+/* 3. Special Template Styles
+/* ---------------------------------------------------------- */
+
+@media (min-width: 900px) {
+    .home-template .post-feed,
+    .tag-template .post-feed,
+    .author-template .post-feed {
+        margin-top: 0;
+    }
+    .home-template .site-nav {
+        top: 0;
+    }
+}
+
 /* 4. Site Header
 /* ---------------------------------------------------------- */
 
