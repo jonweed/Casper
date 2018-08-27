@@ -38,6 +38,7 @@ body {
 
 .gh-head {
     background: var(--blue);
+    color: #fff;
 }
 
 
@@ -47,6 +48,10 @@ body {
 .nav li a {
     color: inherit;
     font-family: Dosis;
+}
+
+.gh-navbar-item {
+    color: inherit;
 }
 
 
