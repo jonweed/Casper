@@ -75,6 +75,7 @@ body {
 
 .gh-navbar-btn:hover {
     color: #343f44;
+    border-color:#343f44;
 }
 
 .gh-nav-logo .ghost-svg {
