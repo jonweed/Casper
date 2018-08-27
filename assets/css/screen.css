@@ -64,6 +64,8 @@ body {
     color: inherit;
     /* font-family: Dosis; */
     text-transform:none;
+    font-weight:500;
+    opacity:1;
     color:inherit;
 }
 
