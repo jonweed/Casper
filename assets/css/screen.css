@@ -62,7 +62,8 @@ body {
 
 .nav li a {
     color: inherit;
-    font-family: Dosis;
+    /* font-family: Dosis; */
+    text-transform:inherit;
 }
 
 .gh-navbar-item {
