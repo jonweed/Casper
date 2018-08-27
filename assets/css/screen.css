@@ -89,7 +89,7 @@ body {
 .ghost-svg {
     width: auto;
     height: 25px;
-    fill:color;
+    fill:currentColor;
     color:#fff;
 }
 
