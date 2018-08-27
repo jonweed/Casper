@@ -1,0 +1,39 @@
+<header class="gh-head">
+    <nav class="gh-navbar inner">
+        <div class="gh-navbar-left">
+            <div class="gh-nav-logo gh-navbar-item">
+                <a href="https://blog.reachout.community">
+                    {{> logo-svg }}
+                </a>
+                <!-- <a class="gh-nav-logo-suffix" href="{{@blog.url}}">Blog</a> -->
+            </div>
+            {{navigation}}
+        </div>
+        <div class="gh-navbar-right">
+            <a class="gh-navbar-item" href="https://blog.reachout.community/about/">About</a>
+            <a class="gh-navbar-item" href="https://reachout.community/" target="_blank">Forum</a>
+            <a class="gh-navbar-btn gh-btn" href="https://blog.reachout.community/signin" id="signin-button"><span>Sign In</span></a>
+        </div>
+    </nav>
+</header>
+
+    <header class="gh-mobilehead">
+        <nav class="gh-mobilenavbar">
+            <a class="gh-nav-burger" href="#">
+                <div class="hamburger hamburger--collapse" aria-label="Menu">
+                    <div class="hamburger-box"><div class="hamburger-inner"></div>
+                </div>
+            </div>
+        </a>
+        <a class="gh-nav-logo" href="/">
+            {{> logo-svg }}
+            <span class="gh-nav-logo-suffix">Blog</span>
+        </a>
+    </nav>
+    <div class="gh-mobilemenu">
+        {{navigation}}
+        <a class="gh-navbar-item" href="https://ghost.org/about/">About</a>
+        <a class="gh-navbar-item" href="https://help.ghost.org">Support</a>
+        <a class="gh-navbar-item" href="https://ghost.org">Back to Ghost.org</a>
+    </div>
+</header>
