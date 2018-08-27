@@ -73,12 +73,15 @@ body {
     color: inherit;
 }
 
+.gh-navbar-btn:hover {
+    color: #343f44;
+}
+
 .gh-nav-logo .ghost-svg {
     width: auto;
-    height: 25px
+    height: 25px;
     fill:color;
     color:#fff;
-    
 }
 
 
