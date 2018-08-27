@@ -75,10 +75,12 @@ body {
 
 .site-nav-right .subscribe-button {
     color:inherit;
+    opacity:1;
 }
 
 .site-nav-right .subscribe-button:hover {
     color:#343f44;
+    border-color:currentColor;
 }
 
 .gh-navbar-item {
