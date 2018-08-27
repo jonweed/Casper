@@ -36,6 +36,10 @@ body {
     display: none;
 }
 
+.gh-head {
+    background: var(--blue);
+}
+
 
 /* 5. Site Navigation
 /* ---------------------------------------------------------- */
