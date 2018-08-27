@@ -63,7 +63,12 @@ body {
 .nav li a {
     color: inherit;
     /* font-family: Dosis; */
-    text-transform:inherit;
+    text-transform:none;
+    color:inherit;
+}
+
+.nav li a:hover {
+    color:#343f44;
 }
 
 .gh-navbar-item {
