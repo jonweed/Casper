@@ -193,6 +193,24 @@ body {
     border-radius: var(--global-border-radius) var(--global-border-radius) 0 0;
 }
 
+.post-card-tag-wrap {
+    border-bottom: 2px solid black;
+    height: 26px;
+    margin-top: -26px;
+    z-index: 1;
+}
+
+.post-card-primary-tag {
+    display: inline-block;
+    background: #00000096;
+    padding: 0 10px;
+    font-size: 13px;
+    color: white;
+    line-height: 26px;
+    height: 26px;
+    text-transform: uppercase;
+}
+
 
 /* 7.1. Subscribe Form
 /* ---------------------------------------------------------- */

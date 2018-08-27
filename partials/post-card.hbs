@@ -4,12 +4,14 @@
             <div class="post-card-image" style="background-image: url({{feature_image}})"></div>
         </a>
     {{/if}}
+    {{#if primary_tag}}
+        <div class="post-card-tag-wrap">
+            <div class="post-card-primary-tag">{{primary_tag.name}}</div>
+        </div>
+    {{/if}}
     <div class="post-card-content">
         <a class="post-card-content-link" href="{{url}}">
             <header class="post-card-header">
-                {{#if primary_tag}}
-                    <span class="post-card-tags">{{primary_tag.name}}</span>
-                {{/if}}
                 <h2 class="post-card-title">{{title}}</h2>
             </header>
             <section class="post-card-excerpt">
