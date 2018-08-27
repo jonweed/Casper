@@ -32,7 +32,7 @@ body {
     .home-template .post-feed,
     .tag-template .post-feed,
     .author-template .post-feed {
-        margin-top: 0;
+        margin-top: 40px;
     }
     .home-template .site-nav {
         top: 0;
@@ -68,6 +68,19 @@ body {
 .gh-navbar-item {
     color: inherit;
 }
+
+.gh-navbar-btn {
+    color: inherit;
+}
+
+.gh-nav-logo .ghost-svg {
+    width: auto;
+    height: 25px
+    fill:color;
+    color:#fff;
+    
+}
+
 
 
 /* 6. Post Feed
