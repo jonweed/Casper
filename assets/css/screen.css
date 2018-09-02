@@ -132,6 +132,18 @@ body {
     padding: 20px 0 0;
 }
 
+.post-card-title {
+    border-bottom:2px solid #fff;
+    transition:0.5s ease all;
+
+}
+
+.post-card:hover .post-card-title {
+    transition: 0.4s ease all;
+    border-bottom:2px solid var(--blue);
+}
+
+
 
 @media (min-width: 795px) {
     .post-card {
