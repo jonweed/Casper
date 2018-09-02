@@ -123,6 +123,16 @@ body {
     transform: none;
 } */
 
+
+.post-card-meta {
+    padding:0;
+}
+
+.post-card-content-link {
+    padding: 20px 0 0;
+}
+
+
 @media (min-width: 795px) {
     .post-card {
         box-shadow: none;
