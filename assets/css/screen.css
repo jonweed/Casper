@@ -133,6 +133,7 @@ body {
 }
 
 .post-card-title {
+    display:inline-block;
     border-bottom:2px solid #fff;
     transition:0.5s ease all;
 
