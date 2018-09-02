@@ -148,7 +148,7 @@ body {
 
 @media (min-width: 795px) {
     .post-card {
-        box-shadow: none;
+        /* box-shadow: none; */
     }
     .home-template .post-feed .post-card:nth-child(6n+1):not(.no-image) .post-card-image-link {
         border-radius: var(--global-border-radius) 0 0 var(--global-border-radius);
