@@ -60,6 +60,18 @@ body {
 /* 5. Site Navigation
 /* ---------------------------------------------------------- */
 
+.site-nav-logo-suffix::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 1px;
+    height: 23px;
+    background: #d3e4ee;
+    transform: rotate(25deg);
+}
+
 .nav li a {
     color: inherit;
     /* font-family: Dosis; */
@@ -143,7 +155,7 @@ body {
     transition: 0.4s ease all;
     border-bottom:2px solid var(--blue);
 }
- 
+
 
 
 @media (min-width: 795px) {
