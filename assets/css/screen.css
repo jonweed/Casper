@@ -60,7 +60,7 @@ body {
 /* 5. Site Navigation
 /* ---------------------------------------------------------- */
 
-.site-nav-logo-suffix::after {
+.site-nav-logo-suffix:after {
     content: "";
     position: absolute;
     top: 0;
