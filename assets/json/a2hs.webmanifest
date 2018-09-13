@@ -2,7 +2,7 @@
 	"name": "reachout/blog",
 	"short_name": "reachout/blog",
 	"description": "reachout.community - Blog",
-	"start_url": ".",
+	"start_url": "/",
 	"display": "standalone",
 	"theme_color": "#26a8ed",
 	"background_color": "#26a8ed",
