@@ -47,7 +47,7 @@ body {
     background: var(--blue);
 }
 
-.site-header:before, .site-header:after {
+.site-header::before, .site-header::after {
     display: none;
 }
 
