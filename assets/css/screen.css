@@ -61,7 +61,10 @@ body {
 /* ---------------------------------------------------------- */
 
 .site-nav-logo-suffix {
+    display:inline-block;
     position:relative;
+    padding-left:10px;
+    margin-left:10px;
 }
 .site-nav-logo-suffix::after {
     content: "";

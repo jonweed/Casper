@@ -9,9 +9,11 @@
             {{/if}}
         {{/is --}}
 
-        <a class="site-nav-logo" href="{{@blog.url}}">reachout</a>
-        <a class="site-nav-logo-suffix" href="{{@blog.url}}">blog</a>
-        
+        <a class="site-nav-logo" href="{{@blog.url}}">
+            reachout
+            <span class="site-nav-logo-suffix">blog</span>
+        </a>
+
         {{#if @blog.navigation}}
             {{navigation}}
         {{/if}}
