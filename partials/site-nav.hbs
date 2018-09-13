@@ -8,7 +8,10 @@
                 <a class="site-nav-logo" href="{{@blog.url}}">{{@blog.title}}</a>
             {{/if}}
         {{/is --}}
-        <a class="site-nav-logo" href="{{@blog.url}}">reachout</a>
+        {{ ^is "home"}}
+            <a class="site-nav-logo" href="{{@blog.url}}">reachout</a>
+        {{/is}}
+        
         {{#if @blog.navigation}}
             {{navigation}}
         {{/if}}
