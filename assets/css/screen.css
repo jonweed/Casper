@@ -53,8 +53,8 @@ body {
 /* ---------------------------------------------------------- */
 
 .site-header {
-    /* color: inherit; */
-    background: var(--blue);
+    color: inherit;
+    background: #fff;
     padding: 8px 0;
 }
 
@@ -74,6 +74,7 @@ body {
 .site-nav-logo {
     display:inline-block;
     margin-right:40px;
+    color:inherit;
 }
 
 .site-nav-logo-suffix {
@@ -81,6 +82,7 @@ body {
     position:relative;
     padding-left:10px;
     margin-left:10px;
+    color: color(var(--blue) l(-5%));
 }
 
 .site-nav-logo-suffix::after {
