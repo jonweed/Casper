@@ -298,6 +298,7 @@ body {
     bottom: 0;
     left: 0;
     display: block;
+    cursor:pointer;
 }
 
 .test-overlay-close:before {
@@ -326,9 +327,6 @@ body {
     transform: rotate(-45deg);
 }
 
-.test-overlay-close:hover {
-    cursor: pointer;
-}
 
 
 /* 11. Site Footer
