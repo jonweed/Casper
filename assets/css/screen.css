@@ -54,7 +54,7 @@ body {
 .site-header {
     /* color: inherit; */
     background: var(--blue);
-    margin: 8px 0;
+    padding: 8px 0;
 }
 
 .site-header::before, .site-header::after {
