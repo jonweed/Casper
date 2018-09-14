@@ -148,7 +148,7 @@ body {
 
 .post-card-image-link {
     border-radius: var(--global-border-radius) var(--global-border-radius) 0 0;
-    margin:-16px -16px -16px 0;
+    margin:-16px -16px 0;
 }
 
 /* .post-card:hover {
