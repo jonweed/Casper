@@ -272,6 +272,8 @@ body {
 
 .post-full-image {
     border-radius: var(--global-border-radius);
+    margin:0;
+    height:600px;
 }
 
 .post-full-content {
