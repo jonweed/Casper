@@ -24,6 +24,15 @@ body {
 }
 
 
+/* 2. Layout - Page building blocks
+/* ---------------------------------------------------------- */
+
+.site-main {
+    padding: 0;
+    margin: 0 4vw;
+    border-radius: 2px;
+}
+
 
 /* 3. Special Template Styles
 /* ---------------------------------------------------------- */
