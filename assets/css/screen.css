@@ -265,6 +265,33 @@ body {
 }
 
 
+/* 10.1 Test Overlay
+/* ---------------------------------------------------------- */
+
+.test-overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 9000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0,25,40,0.97);
+    opacity: 0;
+    transition: opacity 200ms ease-in;
+    pointer-events: none;
+
+    backdrop-filter: blur(3px);
+}
+
+.test-overlay:target {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+
 /* 11. Site Footer
 /* ---------------------------------------------------------- */
 
