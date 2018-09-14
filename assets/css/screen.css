@@ -33,7 +33,6 @@ body {
     border-radius: 2px; */
     margin:1vw;
     border-radius: var(--global-border-radius);
-    background:inherit;
 }
 
 
@@ -209,6 +208,11 @@ body {
 
 /* 7. Single Post
 /* ---------------------------------------------------------- */
+
+.post-template .site-main,
+.page-template .site-main {
+    background:inherit;
+}
 
 .post-full {
     background:#fff;
