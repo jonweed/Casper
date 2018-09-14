@@ -64,9 +64,9 @@ body {
     display: none;
 }
 
-.post-template .site-header {
+/* .post-template .site-header {
     background:inherit;
-}
+} */
 
 .gh-head {
     background: var(--blue);
