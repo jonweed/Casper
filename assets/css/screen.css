@@ -154,6 +154,7 @@ body {
 .post-card,
 .read-next-card {
     border-radius: var(--global-border-radius);
+    margin:0 10px 20px;
 }
 
 .post-card-image-link {
@@ -202,7 +203,6 @@ body {
 /* ---------------------------------------------------------- */
 .post-card {
     padding: 16px;
-    margin:0 10px 20px;
 }
 
 
