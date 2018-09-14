@@ -148,7 +148,6 @@ body {
 
 .post-card-image-link {
     border-radius: var(--global-border-radius) var(--global-border-radius) 0 0;
-    margin:-16px -16px 0;
 }
 
 /* .post-card:hover {
@@ -186,8 +185,6 @@ body {
     }
     .home-template .post-feed .post-card:nth-child(6n+1):not(.no-image) .post-card-image-link {
         border-radius: var(--global-border-radius) 0 0 var(--global-border-radius);
-        margin-right: 0;
-        margin-bottom: -16px;
     }
 }
 
