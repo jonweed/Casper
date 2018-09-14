@@ -189,9 +189,11 @@ body {
     }
 }
 
+/* 6. Post Feed
+/* ---------------------------------------------------------- */
 .post-card {
     padding: 16px;
-    margin:0 16px 40px;
+    margin:0 10px 20px;
 }
 
 
