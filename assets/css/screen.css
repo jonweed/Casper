@@ -33,6 +33,7 @@ body {
     border-radius: 2px; */
     margin:1vw;
     border-radius: var(--global-border-radius);
+    background:inherit;
 }
 
 
@@ -208,6 +209,10 @@ body {
 
 /* 7. Single Post
 /* ---------------------------------------------------------- */
+
+.post-full {
+    background:#fff;
+}
 
 .post-full-header {
     text-align: left;
