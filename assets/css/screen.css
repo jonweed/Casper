@@ -250,7 +250,7 @@ body {
 }
 
 .post-full-image {
-    border-radius: var(--global-border-radius);
+    /* border-radius: var(--global-border-radius); */
 }
 
 .post-full-content {
