@@ -29,7 +29,6 @@ production stylesheet in assets/built/screen.css
 
 /* 1. Global - Set up the things
 /* ---------------------------------------------------------- */
-@import "global.css";
 
 body {
     background: #f4f8fb;
