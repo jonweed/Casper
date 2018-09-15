@@ -13,15 +13,15 @@
       display: flex;
       flex-wrap: wrap; } }
   .o-grid .o-grid {
-    margin-right: -16px;
-    margin-left: -16px;
+    margin-right: 0;
+    margin-left: 0;
     padding: 0; }
   .o-grid--full {
     max-width: 100vw; }
 
 .o-grid__col {
-  padding-right: 16px;
-  padding-left: 16px; }
+  padding-right: 0;
+  padding-left: 0; }
   @media (min-width: 46.25em) {
     .o-grid__col {
       flex-grow: 1; } }
