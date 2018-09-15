@@ -7,6 +7,8 @@ var postcss = require('gulp-postcss');
 var sourcemaps = require('gulp-sourcemaps');
 var zip = require('gulp-zip');
 
+var sass = require('gulp-sass');
+
 // postcss plugins
 var autoprefixer = require('autoprefixer');
 var colorFunction = require('postcss-color-function');
@@ -46,8 +48,14 @@ gulp.task('css', function () {
         .pipe(livereload());
 });
 
+gulp.task('sass', function () {
+  return gulp.src('assets/css/*.scss')
+    .pipe(sass.sync().on('error', swallowError))
+    .pipe(gulp.dest('assets/built/'));
+});
+
 gulp.task('watch', function () {
-    gulp.watch('assets/css/**', ['css']);
+    gulp.watch('assets/css/**', ['css','sass']);
 });
 
 gulp.task('zip', ['css'], function () {
