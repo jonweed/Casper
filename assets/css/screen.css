@@ -1,7 +1,7 @@
 /* 1. Global - Set up the things
 /* ---------------------------------------------------------- */
 
-/* @import "global.css"; */
+@import "global.css";
 @import "screen-casper.css";
 @import "fonts.css";
 /* @import "grid.css"; */
